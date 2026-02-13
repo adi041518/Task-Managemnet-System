@@ -205,7 +205,7 @@ interface LoginData {
 
 export const FormLogin = () => {
     const navigate = useNavigate();
-    const [contactType, setContactType] =
+    const [contactType] =
         useState<"email" | "phone">("email");
 
     const [userData, setUserData] =
