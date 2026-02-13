@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.signup-carousel,
+.signup-carousel .carousel-inner,
+.signup-carousel .carousel-item {
+  height: 100%;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carsouel-slide{
+  height: 100vh;
+}
+.signup-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* LEFT SIDE */
+.signup-left {
+  flex: 1;
+  overflow: hidden;
+}
+
+/* RIGHT SIDE */
+.signup-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+/* LOGO */
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.signup-carousel,
+.signup-carousel .carousel-inner,
+.signup-carousel .carousel-item {
+  height: 100%;
+}
+
+.signup-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* body {
+  /* adjust to your navbar height */
